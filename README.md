@@ -27,29 +27,47 @@ O tema é livre. Você deve pensar em quais situações da vida real um cartão 
 
 ## 3. Objetivos de aprendizagem
 
-Você aprenderá a criar um aplicativo Web que irá interagir interagir com uma pessoa ao final do desenvolvimento através do navegador, usando HTML, CSS e JavaScript como tecnologias.
+Neste projeto você aprenderá a construir uma aplicação web que irá interagir com o usuário final através do navegador utilizando HTML, CSS e JavaScript como ferramentas.
 
-Simplificando, você aprenderá a:
+### HTML e CSS
 
-- Organizar seu tempo e priorizar tarefas em um ambiente de **alta insegurança**.
-- Compreender as **necessidades do usuário** e como propor uma solução.
-- Compreender a importância do processo de prototipagem durante a criação de um produto digital.
-- Conhecer os princípios básicos do design visual.
-- Usar tags de HTML semânticas e elementos de formulário.
-- Mostrar elementos do formulário na tela usando **HTML** e **CSS**.
-- Empregar diversos tipos de seletores em CSS: de elemento, de tipo, de ID.
-- Empregar o modelo de caixa CSS (borda, margem, preenchimento).
-- Determinar as regras de estilo em CSS.
-- Permitir ao usuário que interaja com elementos do DOM e faça com que o aplicativo responda quando ocorrerem esses **eventos do DOM**.
-- Manipular _**strings**_ (cadeias de texto).
-- Empregar **controle de fluxo** (loops, condicionais, ...).
-- Atualizar a tela com os resultados (**manipular o DOM**) mediante **innerHTML** ou **textContent**.
-- **Implementar funções**, dada uma descrição do seu comportamento.
-- Verificar se suas funções realizam as tarefas para as quais foram criadas (testes de unidade (_unit tests_) com [Jest](https://jestjs.io/pt-BR/)).
-- Configurar sua conta git.
-- Realizar _fork_ e _clonar_ o repositório do projeto.
-- Manter atualizadas as alterações em seu repositório remoto (commit, pull, push).
-- Implantar seu projeto nas [Páginas do GitHub](https://pages.github.com).
+- [ ] [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
+- [ ] Uso de seletores de CSS.
+
+### DOM
+
+- [ ] Uso de seletores do DOM.
+- [ ] Manipular eventos do DOM.
+- [ ] [Manipulação dinâmica do DOM.](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o) (appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
+
+### JavaScript
+
+- [ ] Manipulação de strings.
+- [ ] Uso de condicionais (if-else | switch | operador ternário)
+- [ ] Uso de laços _(loops)_ (for | for..in | for..of | while)
+- [ ] Uso de funções (parâmetros | argumentos | valor de retorno)
+- [ ] Declaração correta de variáveis (const & let)
+
+### Testing
+
+- [ ] [Teste unitário.](https://jestjs.io/docs/pt-BR/getting-started)
+
+### Estrutura do código e guia de estilo
+
+- [ ] Organizar e dividir o código em módulos (Modularização)
+- [ ] Uso de identificadores descritivos (Nomenclatura | Semântica)
+- [ ] Uso de linter (ESLINT)
+
+### Git e GitHub
+
+- [ ] Uso de comandos de git (add | commit | pull | status | push)
+- [ ] Gerenciamento de repositorios de GitHub (clone | fork | gh-pages)
+
+### UX
+
+- [ ] Desenhar a aplicação pensando e entendendo o usuário.
+- [ ] Criar protótipos para obter feedback e iterar.
+- [ ] Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
 
 ## 4. Considerações gerais
 
