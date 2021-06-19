@@ -1,14 +1,37 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
-</html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+  <title>Validação do seu Cartão</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+ <h1> BEM VINDOS AO VALIDATOR </h1>
+ <img class="robotStart" src="img/robotStart.png"> 
+  </header>
+  <section>
+    <p> Nós vamos analisar se o número do seu cartão é válido ou não.<br> 
+      Você só precisa do número impresso nele. Bora lá? </p>
+    <img class="robotMid" src="img/robotMiddle.png">
+  </section>
+  <main> 
+   <img class ="robotEnd" src="img/robotEnd.png">
+   <div class="validate">
+    <h2> VALIDAÇÃO DO SEU CARTÃO </h2>
+    <img class="card" src="img/card.png">
+    <form>
+      <input type="number" maxlength="16" placeholder="XXXX . XXXX . XXXX . XXXX"> 
+      <button class="button"> Validar </button>
+    </form>
+   </div>
+  </main>
+  <script src="./index.js" type="module"></script>
+</body>

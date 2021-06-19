@@ -1,0 +1,115 @@
+body{
+    font-family:'Righteous', cursive;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+header{
+    background: rgba(132, 112, 255, 0.5); 
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 64px;
+    font-weight: normal;
+    background: rgba(132, 112, 255, 0.96);
+    color: rgb(255, 255, 255);
+  }
+.robotStart{
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+  }
+
+section{ 
+    background:rgba(131, 244, 163, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p { 
+    margin-left: 100px;
+    width: 50%;
+    font-size: 50px;
+}
+.robotMid {
+    width: 50%;
+    height: 50%;
+}
+
+ main {
+    display: flex;
+    flex-flow: row nowrap;
+    background: rgba(245, 228, 166, 0.5);  
+}
+.robotEnd{
+    padding-top: 50px;
+    margin-left: -2%;
+    width: 43%;
+}
+.validate{
+    position: absolute;
+    margin-left: 33%;
+    width: 70%;
+    padding-top: 5%;
+} 
+h2 {
+    font-size: 40px;
+    color:#4C4D4F;
+}
+.card{
+    transform: rotate(11.28deg);
+    margin-top: -12%;
+    margin-left: 2%;
+    width: 50%;
+}
+form{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 10%;
+    margin-top: -10%;
+    margin-left: -10%;
+}
+input[type=number] {
+    font-family:'Righteous', cursive;
+    border: none;
+    text-align: center;
+    font-size: 24px;
+    -moz-appearance: textfield;
+    border-radius: 7px;
+    width: 40%;
+    height: 35px;
+    
+}
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0; 
+                }
+    input:hover{
+        box-shadow: 0 4px 8px 0 rgba(59, 118, 245, 0.733), 0 6px 20px 0 rgba(59, 118, 245, 0.733);
+    }
+button{
+    margin-left: 2%;
+    font-family:'Righteous', cursive;
+    letter-spacing: 1px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: #ffff;
+    background: #2898FF;
+    border: none;
+    border-radius: 36px;
+    box-shadow: 0 4px 8px 0 rgba(36, 36, 36, 0.19), 0 6px 20px 0 rgba(36, 36, 36, 0.19);
+}
+button:hover{
+    background: #227dd3;
+}
